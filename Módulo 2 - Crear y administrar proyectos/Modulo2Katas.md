@@ -19,7 +19,7 @@ Crea un entorno virtual mediante ``venv``
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
 
     
-![Captura](/images/kata2/1.png)
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/1.png)
 
 
 
@@ -41,6 +41,10 @@ Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno vi
 
 ![image](https://user-images.githubusercontent.com/9124597/153076991-25e857c5-a910-4d54-80b9-47fce1b62147.png)
 
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/2.png)
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/3.png)
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/4.png)
+
 ## Instalar una biblioteca
 
 Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y saber que la biblioteca solo existirá en el entorno virtual.
@@ -53,24 +57,35 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
 
     No deberías obtener respuesta. A continuación, veamos cómo cambia la salida de ``pip freeze`` cuando se agrega una biblioteca (un paquete).
 
+    ![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/5.png)
+
 * Ejecuta el comando ``pip install`` para instalar una biblioteca:
    ```
    pip install python-dateutil
    ```
+
+   ![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/6.png)
+
 * Un gran mensaje de salida de texto dice que está instalando tu biblioteca, y debe terminar con la siguiente oración:
 
     ```
     Successfully installed python-dateutil-2.8.2 six-1.16.0
     ```
+
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/6.png)
 * Vuelve a ejecutar ```pip freeze``` para ver cómo ha cambiado tu lista de bibliotecas:
     ```
     pip freeze
     ```
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/8.png)
+
 * Ahora deberías ver la siguiente lista:
     ```
     python-dateutil==2.8.2
     six==1.16.0
     ```
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/8.png)
+
 
 ### Desactivar un entorno virtual
 
@@ -81,6 +96,7 @@ Ejecuta el comando ``deactivate``:
 deactivate
 ```
 
+![Captura](https://raw.githubusercontent.com/EdsonDaniel/CursoIntroPython/main/images/kata2/10.png)
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
