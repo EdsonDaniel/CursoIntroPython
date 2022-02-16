@@ -18,6 +18,11 @@ Crea un entorno virtual mediante ``venv``
     ``
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
 
+    
+![Captura](/images/kata2/1.png)
+
+
+
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
     ```
